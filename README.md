@@ -16,31 +16,31 @@ None — this course assumes no prior programming experience. Python concepts ar
 ## Syllabus
 
 ### Part 1: Differential Calculus
-Week 1: Functions, evaluating f(x), domain/range, Jupyter basics, variables, arithmetic
-Week 2: Graphs & transformations of functions 
-Week 3: Limits — intuition via tables & graphs
-Week 4: Limit laws & continuity
-Week 5: Derivative as slope/rate of change
-Week 6: Differentiation rules (power, product, quotient, chain)
-Week 7: Higher-order derivatives, implicit differentiation
-Week 8: Rates of change & motion problems
-Week 9: Curve sketching (concavity, inflection)
-Week 10: Optimization (max/min problems) 
-Week 11: Related rates 
+Week 1: Functions, evaluating f(x), domain/range, Jupyter basics, variables, arithmetic \
+Week 2: Graphs & transformations of functions \
+Week 3: Limits — intuition via tables & graphs \
+Week 4: Limit laws & continuity \
+Week 5: Derivative as slope/rate of change \
+Week 6: Differentiation rules (power, product, quotient, chain) \
+Week 7: Higher-order derivatives, implicit differentiation \
+Week 8: Rates of change & motion problems \
+Week 9: Curve sketching (concavity, inflection) \
+Week 10: Optimization (max/min problems) \
+Week 11: Related rates \
 Week 12: **Review + Lab Exam (Differential Calculus)** 
 
 ### Part 2: Integral Calculus
-Week 13: Antiderivatives & indefinite integrals
-Week 14: Riemann sums & numerical integration 
-Week 15: Fundamental Theorem of Calculus 
-Week 16: Integration techniques (substitution, by parts) 
-Week 17: Area between curves 
-Week 18: Volumes of revolution (disk/washer/shell)
-Week 19: Applications (work, growth models, economics)
-Week 20: Improper integrals 
-Week 21: Intro to differential equations 
-Week 22: Sequences & series, Taylor polynomials 
-Week 23: **Review + Lab Exam (Integral Calculus)** 
+Week 13: Antiderivatives & indefinite integrals \
+Week 14: Riemann sums & numerical integration \
+Week 15: Fundamental Theorem of Calculus \
+Week 16: Integration techniques (substitution, by parts) \
+Week 17: Area between curves \
+Week 18: Volumes of revolution (disk/washer/shell) \
+Week 19: Applications (work, growth models, economics) \
+Week 20: Improper integrals \
+Week 21: Intro to differential equations \
+Week 22: Sequences & series, Taylor polynomials \
+Week 23: **Review + Lab Exam (Integral Calculus)** \
 Week 24: **Capstone project + presentations**
 
 ## Repository Structure
