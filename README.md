@@ -51,8 +51,9 @@ Calculus-with-Python-Programming/
 │   ├── calcwp_wk1_intro_to_python.ipynb
 │   ├── calcwp_wk2_graphing_functions.ipynb
 │   └── ...
-├── README.md
-└── LICENSE
+├── LICENSE
+└── License Content
+└── README.md
 ```
 
 ## Tools Used
