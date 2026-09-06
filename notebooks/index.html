@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CALCWP — Calculus with Python Programming</title>
+<meta name="description" content="A weekly Jupyter notebook lab manual teaching Basic Calculus through Python. Every notebook opens directly in Google Colab.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="#top" class="wordmark">CALC<span>WP</span></a>
+    <nav class="header-nav">
+      <a href="#syllabus">Syllabus</a>
+      <a href="#tools">Tools</a>
+      <a href="https://github.com/matth426/Calculus-with-Python-Programming" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow-plain">CALC01 · Basic Calculus</p>
+        <h1>Calculus, taught<br>the way you'll<br>actually use it.</h1>
+        <p class="hero-lede">
+          Twenty-four weekly notebooks that pair every calculus idea — limits,
+          derivatives, integrals — with the Python code that computes it. No prior
+          programming experience assumed. Every notebook opens straight into
+          Google Colab, so there's nothing to install.
+        </p>
+        <div class="hero-actions">
+          <a href="#syllabus" class="btn btn-primary">View the syllabus</a>
+          <a href="https://github.com/matth426/Calculus-with-Python-Programming" class="btn btn-ghost" target="_blank" rel="noopener">Browse the repo</a>
+        </div>
+      </div>
+
+      <div class="hero-figure" aria-hidden="true">
+        <svg viewBox="0 0 420 380" class="parabola-svg">
+          <!-- grid -->
+          <g stroke="#DDE3E8" stroke-width="1">
+            <line x1="0" y1="60" x2="420" y2="60"/>
+            <line x1="0" y1="120" x2="420" y2="120"/>
+            <line x1="0" y1="180" x2="420" y2="180"/>
+            <line x1="0" y1="240" x2="420" y2="240"/>
+            <line x1="0" y1="300" x2="420" y2="300"/>
+            <line x1="60" y1="0" x2="60" y2="380"/>
+            <line x1="120" y1="0" x2="120" y2="380"/>
+            <line x1="180" y1="0" x2="180" y2="380"/>
+            <line x1="240" y1="0" x2="240" y2="380"/>
+            <line x1="300" y1="0" x2="300" y2="380"/>
+            <line x1="360" y1="0" x2="360" y2="380"/>
+          </g>
+          <!-- axes -->
+          <line x1="0" y1="320" x2="420" y2="320" stroke="#1E2A44" stroke-width="1.5"/>
+          <line x1="40" y1="0" x2="40" y2="380" stroke="#1E2A44" stroke-width="1.5"/>
+          <!-- parabola: hand-drawn feel via slightly irregular path -->
+          <path d="M 55 300 C 110 60, 150 40, 230 40 S 350 60, 400 300"
+                fill="none" stroke="#E3A008" stroke-width="4" stroke-linecap="round"/>
+          <!-- tangent line construction, evokes derivative -->
+          <line x1="150" y1="220" x2="290" y2="110" stroke="#1F7A6C" stroke-width="2" stroke-dasharray="6 5"/>
+          <circle cx="230" cy="163" r="5" fill="#1E2A44"/>
+          <text x="245" y="150" font-family="JetBrains Mono, monospace" font-size="13" fill="#1F7A6C">f'(a)</text>
+          <text x="20" y="345" font-family="JetBrains Mono, monospace" font-size="13" fill="#1E2A44">0</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INFO STRIP ============ -->
+  <section class="info-strip">
+    <div class="wrap info-grid">
+      <div>
+        <p class="info-label">Course</p>
+        <p class="info-value">CALC01 — Basic Calculus</p>
+      </div>
+      <div>
+        <p class="info-label">Audience</p>
+        <p class="info-value">1st-year BSIT, no coding background required</p>
+      </div>
+      <div>
+        <p class="info-label">Format</p>
+        <p class="info-value">24 weekly notebooks, Colab-ready</p>
+      </div>
+      <div>
+        <p class="info-label" id="tools">Tools</p>
+        <p class="info-value">Python · NumPy · SymPy · Matplotlib · SciPy</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SYLLABUS ============ -->
+  <section class="syllabus" id="syllabus">
+    <div class="wrap">
+      <h2>The syllabus</h2>
+      <p class="syllabus-lede">Click a week to open its notebook directly in Google Colab. Weeks still being built show as coming soon — check back, or follow the repo for updates.</p>
+
+      <h3 class="part-heading"><span class="part-tag">Part 1</span> Differential Calculus <span class="part-months">Months 1–3</span></h3>
+      <ol class="week-list" id="diff-weeks" start="1">
+        <!-- WEEKS 1-12 injected by weeks.js -->
+      </ol>
+
+      <h3 class="part-heading"><span class="part-tag">Part 2</span> Integral Calculus <span class="part-months">Months 4–6</span></h3>
+      <ol class="week-list" id="int-weeks" start="13">
+        <!-- WEEKS 13-24 injected by weeks.js -->
+      </ol>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <p>CALCWP — Calculus with Python Programming · Mattheus Marcos Contreras</p>
+    <p class="footer-license">Code: MIT License · Content: CC BY-NC-SA 4.0</p>
+  </div>
+</footer>
+
+<script src="weeks.js"></script>
+</body>
+</html>
