@@ -9,7 +9,7 @@ const differentialWeeks = [
   { n: 2,  title: "Graphs & transformations of functions", tags: ["numpy.linspace", "matplotlib"], file: "calcwp_wk2_graphing_functions.ipynb", ready: true },
   { n: 3,  title: "Limits — intuition via tables & graphs", tags: ["for loops", "lists"], file: "calcwp_wk3_limits.ipynb", ready: true },
   { n: 4,  title: "Limit laws & continuity", tags: ["sympy.limit()", "if / else"], file: "calcwp_wk4_continuity.ipynb", ready: true },
-  { n: 5,  title: "Derivative as slope / rate of change", tags: ["difference quotient", "def"], file: "calcwp_wk5_derivative_intro.ipynb", ready: false },
+  { n: 5,  title: "Derivative as slope / rate of change", tags: ["difference quotient", "def"], file: "calcwp_wk5_derivative_intro.ipynb", ready: true },
   { n: 6,  title: "Differentiation rules (power, product, quotient, chain)", tags: ["sympy.diff()"], file: "calcwp_wk6_differentiation_rules.ipynb", ready: false },
   { n: 7,  title: "Higher-order derivatives, implicit differentiation", tags: ["nested calls", "sympy.diff() order"], file: "calcwp_wk7_higher_order_derivatives.ipynb", ready: false },
   { n: 8,  title: "Rates of change & motion problems", tags: ["reusable def functions"], file: "calcwp_wk8_motion_problems.ipynb", ready: false },
