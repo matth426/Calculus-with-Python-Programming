@@ -14,8 +14,8 @@ const differentialWeeks = [
   { n: 7,  title: "Higher-order derivatives, implicit differentiation", tags: ["nested calls", "sympy.diff() order"], file: "calcwp_wk7_higher_order_derivatives.ipynb", ready: true },
   { n: 8,  title: "Rates of change & motion problems", tags: ["reusable def functions"], file: "calcwp_wk8_motion_problems.ipynb", ready: true },
   { n: 9,  title: "Curve sketching (concavity, inflection)", tags: ["sympy.solve()", "matplotlib annotations"], file: "calcwp_wk9_curve_sketching.ipynb", ready: true },
-  { n: 10, title: "Optimization (max / min problems)", tags: ["scipy.optimize"], file: "calcwp_wk10_optimization.ipynb", ready: false },
-  { n: 11, title: "Related rates", tags: ["multi-variable sympy"], file: "calcwp_wk11_related_rates.ipynb", ready: false },
+  { n: 10, title: "Optimization (max / min problems)", tags: ["scipy.optimize"], file: "calcwp_wk10_optimization.ipynb", ready: true },
+  { n: 11, title: "Related rates", tags: ["multi-variable sympy"], file: "calcwp_wk11_related_rates.ipynb", ready: true },
   { n: 12, title: "Review + Lab Exam — Differential Calculus", tags: ["review"], file: "calcwp_wk12_review_exam.ipynb", ready: false, exam: true },
 ];
 
