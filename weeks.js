@@ -16,7 +16,7 @@ const differentialWeeks = [
   { n: 9,  title: "Curve sketching (concavity, inflection)", tags: ["sympy.solve()", "matplotlib annotations"], file: "calcwp_wk9_curve_sketching.ipynb", ready: true },
   { n: 10, title: "Optimization (max / min problems)", tags: ["scipy.optimize"], file: "calcwp_wk10_optimization.ipynb", ready: true },
   { n: 11, title: "Related rates", tags: ["multi-variable sympy"], file: "calcwp_wk11_related_rates.ipynb", ready: true },
-  { n: 12, title: "Review + Lab Exam — Differential Calculus", tags: ["review"], file: "calcwp_wk12_review_exam.ipynb", ready: false, exam: true },
+  { n: 12, title: "Review + Lab Exam — Differential Calculus", tags: ["review"], file: "calcwp_wk12_review_exam.ipynb", ready: true, exam: true },
 ];
 
 const integralWeeks = [
